@@ -6,6 +6,7 @@ import { Coffee } from "../coffee.entity";
 export class Flavor {
     @PrimaryGeneratedColumn()
     id: number;
+    
     @Column()
     name: string;
 
